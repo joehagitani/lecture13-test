@@ -10,7 +10,7 @@ jobs:
       - run:
           name: run cfn-lint
           command: |
-            cfn-lint -i W3002 -t Users/JOE/desk top2024.5/desktop/cfltest/*.yml      # 自分のリポジトリのパスに変更
+            cfn-lint -i W3002 -t desk top2024.5/desktop/cfltest/*.yml      # 自分のリポジトリのパスに変更
 
 workflows:
   raisetech:
